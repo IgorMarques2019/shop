@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+#menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 10px 20px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#logo {
+    width: 50px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+nav {
+    margin: 0;
+}
+
+#menu nav ul {
+    margin: 0;
+}
+
+#menu nav ul li {
+    display: inline-block;
+    margin: 10px;
+   
+}
+
+#menu nav a {
+    font-size: 1.1em;
+    color: #00ACEC;
+}
+#menu nav i {
+margin-right:1px;
+color: #00ACEC;
+font-size:1em;
+}
+
+/* --------------------------------- BANNER --------------------------------- */
+
+aside {
+    width: 100%;
+    height: 100%;
+    background: url(./img/pexels-visionpic-net-319968.jpg) no-repeat top center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity:0.8;
+
+}
+aside h1 {
+    color: rgb(255, 255, 255);
+    text-shadow:1px 3px 05px #035979;
+}
+
+/* -------------------------------- PRODUTOS -------------------------------- */
+
+#product-box {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-product {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 300px;
+    background-color: #f8f8f875;
+    box-shadow: 5px 5px 4px solid red;
+    border: 1px solid #ccc;
+    margin: 5px;
+    text-align: center;
+}
+
+.item-product h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+    color: #00ACEC;
+}
+
+.item-product p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.item-product img {
+    width: 100%;
+padding:20px;
+    border: 1px solid #ccc;
+}
+
+.item-product input[type="button"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to right, #00ACEC, #34c9ff);
+    color: white;
+}
+
+.item-product input[type="button"]:hover {
+    background: linear-gradient(to right, #08ddaf, #00c3dd);
+    
+    transition: all 2s;
+}
+.destaques {
+    padding:10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px solid #f5f5f5;
+    font-size:2em;
+    display: block;
+    background:linear-gradient(to right,rgb(20, 187, 137), #3bcbff);
+    box-shadow: 0px 0px 2px #00ACEC;
+    text-shadow:0px 0px 2px #00ACEC; 
+   
+}
+.item-product > span {
+    color: #08886c;
+    font-size:1.3em;
+}
+
+footer {
+    width:100%;
+    text-align: center;
+    padding:20px 0;
+    color: #00ACEC;
+}
+
